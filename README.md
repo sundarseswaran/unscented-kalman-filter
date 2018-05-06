@@ -21,14 +21,16 @@ This project implements unscented kalman filter to estimate the state of a movin
 
 ### Results & Discussion
 
+Dataset 1
 ![Results for dataset 1](./result-dataset-1.png)
 
+Dataset 2
 ![Results for dataset 2](./result-dataset-2.png)
 
 * The above diagrams show the results when executing the program against the simulator for two different datasets.
 * The program has to be restarted when switching between the datasets. _(Scope for improvement)_
 
-Optimization of standard deviation values for longitudinal & yaw acceleration values. 
+Optimization of standard deviation values for longitudinal & yaw acceleration values over Dataset 1
 
 |  std_a_  |  std_yawdd__  |   x      | y      | vx     | vy     |
 |----------|---------------|----------|--------|--------|--------|
